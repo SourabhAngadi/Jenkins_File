@@ -7,5 +7,6 @@ public class TestNG9 {
   @Test
   public void f() {
 	  driver = new ChromeDriver();
+	  driver.get("https://www.google.com/");
   }
 }
